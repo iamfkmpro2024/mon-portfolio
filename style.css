@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f8ff; /* Un bleu très clair (AliceBlue) */
+    font-family: 'Arial', sans-serif; /* Une police plus moderne */
+    color: #333; /* Texte gris foncé (plus doux que le noir pur) */
+    max-width: 800px; /* Limite la largeur pour que ce soit lisible */
+    margin: 0 auto; /* Centre tout le contenu de la page */
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50; /* Un bleu nuit pour le titre */
+    text-align: center;
+    border-bottom: 2px solid #3498db; /* Une petite ligne bleue sous le titre */
+    padding-bottom: 10px;
+}
+
+img {
+    display: block; /* Permet de centrer l'image */
+    margin: 20px auto; /* Centre l'image horizontalement */
+    border-radius: 50%; /* Rend l'image RONDE ! 😎 */
+    border: 5px solid #3498db; /* Ajoute une bordure bleue */
+}
+
+a {
+    color: #e74c3c; /* Lien en rouge/orange */
+    text-decoration: none; /* Enlève le soulignement moche */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Le soulignement revient quand on passe la souris */
+
+}
+/* Le point "." veut dire qu'on vise une CLASSE */
+.card {
+    background-color: white; /* Fond blanc */
+    padding: 20px; /* Espace à l'intérieur de la boîte */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Une petite ombre portée style 3D */
+    margin-top: 20px; /* Espace au-dessus de la carte */
+    text-align: left; /* On remet le texte à gauche dans la carte */
+    }
