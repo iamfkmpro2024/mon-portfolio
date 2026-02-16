@@ -40,3 +40,31 @@ a:hover {
     margin-top: 20px; /* Espace au-dessus de la carte */
     text-align: left; /* On remet le texte à gauche dans la carte */
     }
+    /* --- MODE SOMBRE --- */
+
+/* Le bouton lui-même */
+#toggle-mode {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Quand le body a la classe "dark", on change les couleurs */
+body.dark {
+    background-color: #121212; /* Fond noir */
+    color: #e0e0e0; /* Texte blanc cassé */
+}
+
+/* On change aussi la couleur de la carte en mode sombre */
+body.dark .card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    box-shadow: 0 4px 8px rgba(255,255,255,0.1); /* Ombre blanche légère */
+}
